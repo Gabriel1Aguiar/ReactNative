@@ -95,7 +95,7 @@ const CardEditScreen = ({ route, navigation }) => {
             <Picker.Item label="Em Progresso" value="in_progress" />
             <Picker.Item label="Concluído" value="done" />
         </Picker>
-        <Button title="Save" onPress={handleSave} color="#32cd32" />
+        <Button title="Salvar" onPress={handleSave} color="#32cd32" />
     </View>
   )
 }
